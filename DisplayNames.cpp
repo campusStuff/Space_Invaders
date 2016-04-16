@@ -29,6 +29,7 @@ int main()
 	ALLEGRO_FONT *font = al_load_font("orbitron-black.ttf", 36, NULL);
 	al_draw_text(font, al_map_rgb(44, 177, 255), width / 2, 150, ALLEGRO_ALIGN_CENTRE, "Kshir Ramruthan");
 	al_draw_text(font, al_map_rgb(44, 177, 255), width / 2, 225, ALLEGRO_ALIGN_CENTRE, "Denver Pillay");
+	al_draw_text(font, al_map_rgb(44, 177, 255), width / 2, 300, ALLEGRO_ALIGN_CENTRE, "Raaghav Maharaj");
 
 	al_flip_display();
 	al_destroy_font(font);
