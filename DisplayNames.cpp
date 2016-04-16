@@ -32,7 +32,7 @@ int main()
 
 	al_flip_display();
 	al_destroy_font(font);
-	al_rest(INT_MAX*1.0);
+	al_rest(INT_MAX/1.0);
 	al_destroy_display(display);
 	return 0;
 }
